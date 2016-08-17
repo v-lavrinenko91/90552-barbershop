@@ -44,8 +44,8 @@ body {
 
 .main-navigation {
   float: left;
+	margin-top: 30px;
   width: 780px;
-  min-height: 70px;
 	font-size: 0;
 }
 
@@ -59,8 +59,8 @@ body {
 
 .user-block {
   float: right;
+	margin-top: 30px;
   width: 140px;
-  min-height: 70px;
 }
 
 .index-logo {
@@ -104,7 +104,6 @@ body {
 }
 
 .main-footer {
-  margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
 	background-color: #1f1f1f;
@@ -130,10 +129,14 @@ body {
 }
 
 
-//стили второй страницы
+
+
+
+
 
 .main-logo {
 	float: left;
+	margin: 25px 0;         
 }
 			
 .next-page-navigation {
@@ -171,6 +174,29 @@ body {
 	margin-right: 10px;
 }
 
+.product-features legend {
+	margin-bottom: 35px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.product-features fieldset {
+	margin-bottom: 50px;
+}
+
+.product-features fieldset:first-child {
+	margin-bottom: 55px;
+}
+
+.product-features input[type='submit'] {
+	width: 112px;
+	padding: 15px 0;
+	background-color: #000000;
+	color: #ffffff;
+	
+}
+
 .products {
 	float: right;
 	width: 700px;	
@@ -181,6 +207,8 @@ body {
 	display: inline-block;
 	width: 220px;
 	margin-right: 20px;
+	margin-bottom: 20px;
+	
 }
 
 .product-item:nth-of-type(3n)
@@ -189,9 +217,27 @@ body {
 }
 
 .catalog-h2 {
-	width: 160px;
+	width: 210px;
 	line-height: 18px;
 	font-size: 14px;
 	color: #000000;
+}
+
+.item-price {
+	display: inline-block;
+	width: 110px;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 14px;
+	background: #e5e5e5;
+}
+
+.buy-btn {
+	display: inline-block;
+	width: 80px;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 14px;
+	background: #000000;
 }
 
